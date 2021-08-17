@@ -15,6 +15,13 @@
 .swiper-button-next::after{
     content: '';
 }
-.swiper-container-horizontal > .swiper-pagination-bullets{
+/* .swiper-container-horizontal > .swiper-pagination-bullets{
     bottom: -2.5rem;
+} */
+
+.swiper-button-prev{
+    left: -.3rem;
+}
+.swiper-button-next{
+    right: -.3rem;
 }
