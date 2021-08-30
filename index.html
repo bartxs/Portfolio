@@ -561,31 +561,35 @@
                 </div>
             </div>
 
-            <form action="" class="contact_form grid">
+            <form action="https://formsubmit.co/b.soltysik90@gmail.com" method="POST" class="contact_form grid">
                 <div class="contact_inputs grid">
                     <div class="contact_content">
                         <label for="" class="contact_label">Name</label>
-                        <input type="text" class="contact_input">
+                        <input type="text" name="name" class="contact_input">
                     </div>
                     <div class="contact_content">
                         <label for="" class="contact_label">E-mail</label>
-                        <input type="email" class="contact_input">
+                        <input type="email" name="email" class="contact_input">
                     </div>
                 </div>
                 <div class="contact_content">
                     <label for="" class="contact_label">Project</label>
-                    <input type="email" class="contact_input">
+                    <input type="text" name="_subject" class="contact_input">
                 </div>
                 <div class="contact_content">
                     <label for="" class="contact_label">Message</label>
-                    <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+                    <textarea name="message" id="" cols="0" rows="7" class="contact_input"></textarea>
                 </div>
 
                 <div>
-                    <a href="" class="button button--flex">
+                    <!-- <a type="submit" class="button button--flex">
                         Send Message
                         <i class="uil uil-message button_icon"></i>
-                    </a>
+                    </a> -->
+                    <button type="submit" class="button button--flex">
+                        Send
+                        <i class="uil uil-message button_icon"></i>
+                    </button>
                 </div>
             </form>
         </div>
