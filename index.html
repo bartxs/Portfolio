@@ -115,7 +115,7 @@
         <span class="section_subtitle">My introduction</span>
 
         <div class="about_container container grid">
-            <img src="assets/img/about.jpg" alt="" class="about_img">
+            <img src="assets/img/about1.jpg" alt="" class="about_img">
 
             <div class="about_data">
                 <p class="about_description">A great value for me is the opportunity to develop in a friendly environment with diverse educational and cultural experiences. I am committed to being a versatile web developer and web designer. I consider myself an adaptable and motivated learner with an interest in new programming technologies, frameworks and continual self-improvement.</p>
@@ -187,7 +187,7 @@
 
                     <div class="skills_data">
                         <div class="skill_title">
-                            <h3 class="skills_name">- React</h3>
+                            <h3 class="skills_name">- React.js</h3>
                         </div>
                     </div>
                 </div>
@@ -209,7 +209,7 @@
                 <div class="skills_list grid">
                     <div class="skills_data">
                         <div class="skill_title">
-                            <h3 class="skills_name">- Node JS</h3>
+                            <h3 class="skills_name">- Node.js</h3>
                         </div>
                     </div>
 
@@ -295,7 +295,7 @@
 
                     <div class="services_modal">
                         <div class="services_modal-content">
-                            <h4 class="services_modal-title"> Frontend <br> Developer</h4>
+                            <h4 class="services_modal-title">Frontend <br> Developer</h4>
                             <i class="uil uil-times services_modal-close"></i>
 
                             <ul class="services_modal-services">
@@ -337,7 +337,7 @@
 
                     <div class="services_modal">
                         <div class="services_modal-content">
-                            <h4 class="services_modal-title"> Backend <br> Developer</h4>
+                            <h4 class="services_modal-title">Backend <br> Developer</h4>
                             <i class="uil uil-times services_modal-close"></i>
 
                             <ul class="services_modal-services">
@@ -561,7 +561,7 @@
                 </div>
             </div>
 
-            <form action="https://formsubmit.co/b.soltysik90@gmail.com" method="POST" class="contact_form grid">
+            <form id="myForm" action="https://formsubmit.co/b.soltysik90@gmail.com" method="POST" class="contact_form grid">
                 <div class="contact_inputs grid">
                     <div class="contact_content">
                         <label for="" class="contact_label">Name</label>
@@ -582,14 +582,10 @@
                 </div>
 
                 <div>
-                    <!-- <a type="submit" class="button button--flex">
+                    <a onclick="document.getElementById('myForm').submit()" class="button button--flex">
                         Send Message
                         <i class="uil uil-message button_icon"></i>
-                    </a> -->
-                    <button type="submit" class="button button--flex">
-                        Send
-                        <i class="uil uil-message button_icon"></i>
-                    </button>
+                    </a>
                 </div>
             </form>
         </div>
@@ -631,7 +627,11 @@
                 </div>
             </div>
 
-            <p class="footer_copy">&#169; Bartosz Soltysik. All right reserved</p>
+            <p class="footer_copy">
+                &#169;  
+                <script type="text/javascript">document.write(new Date().getFullYear())</script>
+                Bartosz Soltysik. All right reserved
+            </p>
         </div>
     </footer>
 
